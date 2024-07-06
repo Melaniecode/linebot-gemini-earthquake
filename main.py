@@ -181,3 +181,4 @@ if __name__ == "__main__":
         'API_ENV', default='develop') == 'develop' else False
     logging.info('Application will start...')
     uvicorn.run("main:app", host="0.0.0.0", port=port, reload=debug)
+
